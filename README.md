@@ -13,16 +13,14 @@ Workspace env:
 
     python3 image_resizer.py
 
-directory structure should be like this :
-
 ~~~
 pip3 install tensorflow-gpu
 ~~~
 
 
-install :
-    
-  git clone https://github.com/tensorflow/models.git
+directory structure should be like this :
+
+u should add pre-trained-models, models, images, annotations.
 
 ~~~
  TensorFlow_training/
@@ -36,6 +34,12 @@ install :
    ├─ training_demo/
    
  ~~~
+ 
+ install :
+    
+    git clone https://github.com/tensorflow/models.git
+
+
 
 cd models\research
 
