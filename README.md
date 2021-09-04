@@ -247,3 +247,6 @@ evaluating model:
     python3 TF-image-od.py --model exported-models/my_mobilenet_model --labels exported-models/my_mobilenet_model/saved_model/label_map.pbtxt --image images/test/twist_19.jpg --threshold 0.60
 
 
+<p align="center">
+  <img src="doc/Object Detector_screenshot_03.09.2021.png">
+</p>
